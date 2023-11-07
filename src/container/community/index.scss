@@ -1,0 +1,70 @@
+.page {
+  padding: 24px;
+  max-width: 400px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  transition: opacity 0.7s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.title {
+  font-size: 24px;
+  color: #121212;
+  font-weight: bold;
+}
+
+.tab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tab__buttons {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.tab__text {
+  font-size: 20px;
+  align-items: center;
+}
+.info--viewed {
+  color: #888888;
+  border-bottom: 1px solid #888888;
+}
+.community__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.community__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.community__title {
+  font-size: 20px;
+}
+.community__text {
+  font-size: 16px;
+  color: #888888;
+  line-height: 1.5;
+}
+.community__button {
+  background-color: #f46f17;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
